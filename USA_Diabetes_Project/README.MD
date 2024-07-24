@@ -4,7 +4,7 @@ This project is about using various machine learning models to predict whether a
 
 ## Dataset
 
-The project data was first retrieved from Kaggle: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset. However for training purposes, the dataset was preprocessed beforehand so that the distribution of diabetes (0 or 1) would be equal, to prevent overfitting and training bias. Column information is contained inside the notebook at the beginning. 
+The project data was retrieved from Kaggle: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset select=diabetes_binary_5050split_health_indicators_BRFSS2015.csv. The original dataset could be found from https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_health_indicators_BRFSS2015.csv. This dataset was preprocessed beforehand so that the distribution of diabetes (0 or 1) would be equal, to prevent overfitting and training bias. Column information is contained inside the notebook at the beginning. 
 
 ## Data Preprocessing 
 
