@@ -21,3 +21,19 @@ The models have been built using classification algorithm mainly with Decision T
 ## Conclusion
 
 After performance evaluation, the LightGBM model has been selected as the best performing model with the given data with the highest accuracy and f1-score. This is probably because LightGBM model shows a high performance when there are lots of data (data > 10000). Although LightGBM has the highest performance, the accuracy and f1-score wasn't able to achieve a high score in general which could be due to certain limitations such as limited hyperparameter tuning due to constrained GPU units or because of limited training data as the data was preprocessed beforehand to make it balanced by using under-sampling technique as the original data was 253,680 * 22 and the preprocessed 50:50 data that was used for this project is 70692 * 22. For further improvements, the original data on Kaggle could be used with more data, and if not, more in-depth hyperparameter tuning for these models could be a good start, or to use other advanced models if there are no improvements. 
+
+## Sources
+
+1. Antonopoulos, Andreas S., et al. "The Role of Inflammation in Atrial Fibrillation: A Comprehensive Review." *Journal of Atrial Fibrillation*, vol. 11, no. 1, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5953551/.
+
+2. American Heart Association. "Cholesterol Abnormalities & Diabetes." *American Heart Association*, https://www.heart.org/en/health-topics/diabetes/diabetes-complications-and-risks/cholesterol-abnormalities--diabetes.
+
+3. National Center for Biotechnology Information. "Complications of Diabetes Mellitus." *NCBI Bookshelf*, https://www.ncbi.nlm.nih.gov/books/NBK592412/.
+
+4. News-Medical. "Diabetes in Men versus Women." *News-Medical.net*, https://www.news-medical.net/health/Diabetes-in-Men-versus-Women.aspx.
+
+5. Centers for Disease Control and Prevention. "Data & Research | Diabetes | CDC." *Centers for Disease Control and Prevention*, https://www.cdc.gov/diabetes/php/data-research/index.html#:~:text=Incidence%20among%20adults&text=Compared%20to%20adults%20aged%2018,and%20older%20(Table%203).
+
+6. Cheng, Shao-Chun, et al. "Diabetes and Mortality in Pay-for-Performance Programs." *Health Policy*, 2023, https://www.sciencedirect.com/science/article/pii/S0168851023002026#:~:text=With%20higher%20education%2C%20diabetes%20is,mortality%20in%20diabetes%20P4P%20program.
+
+7. Valdes-Ramos, Roxana, et al. "Nutrition and Inflammation in the Pathogenesis of Diabetic Retinopathy." *Journal of Immunology Research*, 2015, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4603875/.
